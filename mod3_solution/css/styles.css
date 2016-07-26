@@ -1,0 +1,73 @@
+/********** Base styles **********/
+* {
+  box-sizing: border-box;
+}
+
+/****NAVBAR****/
+#header-nav {
+  background-color: #d3d3d3;
+  border-radius: 0;
+}
+
+#brand-name {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  font-size: 140%;
+}
+
+
+h1 {
+  margin-bottom: 15px;
+}
+
+section {
+	clear: right;
+	padding: 10px;
+}
+
+.menuItemHeader > h3 {
+	margin-top: 5px;
+	margin-bottom: 10px;
+}
+
+.menuItem {
+	background-color: #d3d3d3;
+	border: 1px solid black;
+	position: relative;
+	margin-bottom: 20px;
+	min-width: 110px;
+  min-height: 1000px;
+}
+
+#pageHeader {
+	margin-bottom: 50px;
+}
+
+.itemHeader h3 {
+	font-weight: bold;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid black;
+}
+
+#nav-list {
+  background-color: white;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+#nav-list a {
+  color: black;
+  font-size: 120%;
+}
+
+#nav-list a:hover {
+  background-color: #B0C4DE;
+}
+
+.nav-menu-separator {
+  margin: 0px;
+  border: 1px solid lightgray;
+}
